@@ -1,0 +1,45 @@
+html {
+  scroll-behavior: smooth;
+}
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+
+.jumbotron img {
+  transition:
+    transform 0.4s ease,
+    box-shadow 0.4s ease;
+}
+
+.jumbotron img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+#projects {
+  background-color: #e2edff;
+}
+.card {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+  transform: scale(1.05);
+}
+
+section {
+  padding-top: 5rem;
+}
